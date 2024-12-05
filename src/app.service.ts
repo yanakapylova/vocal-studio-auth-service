@@ -30,13 +30,5 @@ export class AppService {
         id: user.id,
       },
     };
-
-    // console.log({
-    //   access_token: await this.jwtService.signAsync(payload),
-    //   // TODO: add refresh token
-    //   user: {
-    //     id: user.id,
-    //   },
-    // });
   }
 }
