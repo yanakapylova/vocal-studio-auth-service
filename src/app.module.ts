@@ -12,7 +12,7 @@ import { UsersService } from './user.service';
     JwtModule.register({
       global: true,
       secret: jwtConstants.secret,
-      signOptions: { expiresIn: '3600s' },
+      signOptions: { expiresIn: '1d' },
     }),
     ConfigModule.forRoot({ isGlobal: true }),
   ],

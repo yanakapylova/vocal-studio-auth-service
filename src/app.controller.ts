@@ -1,7 +1,7 @@
 import { Controller } from '@nestjs/common';
 import { SignInUserDto } from './dto/sign-in.dto';
 import {} from '@nestjs/swagger';
-import { EventPattern, MessagePattern, Payload } from '@nestjs/microservices';
+import { MessagePattern, Payload } from '@nestjs/microservices';
 import { AppService } from './app.service';
 
 @Controller()
