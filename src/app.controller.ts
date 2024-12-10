@@ -8,7 +8,7 @@ import { AppService } from './app.service';
 export class AppController {
   constructor(private authService: AppService) {}
 
-  @MessagePattern({ cmd: 'signin' }) // Обрабатывает сообщения с ключом 'signin'
+  @MessagePattern({ cmd: 'signin' }) // messages with 'signin' key
   handleSignIn(@Payload() signInDto: SignInUserDto) {
     return this.authService.signIn(signInDto.email, signInDto.password);
   }

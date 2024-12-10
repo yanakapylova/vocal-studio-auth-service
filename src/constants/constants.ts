@@ -1,7 +1,8 @@
 export const jwtConstants = {
-  secret:
-    '2182312c81187ab82bb15ab15ad1df51132345cbafbd7b',
+  secret: process.env.JWT_SECRET,
 };
+
+export const RABBITMQ_URL = process.env.RABBITMQ_URL;
 
 export const swagger = {
   title: 'Vocal Studio',

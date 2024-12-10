@@ -1,0 +1,19 @@
+services:
+  auth:
+    ports:
+      - "3005:3005"
+    build:
+      context: ./vocal-studio-auth-service
+      dockerfile: Dockerfile
+    environment:
+      - DATABASE_URL=postgresql://postgres:isJwpraVpEitLBHmdRaQgNBQYcEDvSAf@autorack.proxy.rlwy.net:56201/railway
+      - RABBITMQ_URL=amqp://localhost:5672
+    networks:
+      - vocal-studio
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+
+networks:
+  vocal-studio:
+    driver: bridge
