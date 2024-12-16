@@ -18,7 +18,7 @@ Make sure you have the following installed:
    cd https://github.com/yanakapylova/vocal-studio-auth-service
    ```
 
-2. Ensure that the **authentication server** is started **after the general server**, as it depends on RabbitMQ and other resources configured by the general server. This is especially important when using the unified Docker Compose file.
+2. Ensure that the **authentication server** is started **after the general server**, as it depends on RabbitMQ and other resources configured by the general server.
 
 3. Start the service using the internal Docker Compose file:
    ```bash
