@@ -20,7 +20,7 @@ Make sure you have the following installed:
 
 2. Ensure that the **authentication server** is started **after the general server**, as it depends on RabbitMQ and other resources configured by the general server.
 
-3. Start the service using the internal Docker Compose file:
+3. Start the service using the Docker Compose file:
    ```bash
    docker-compose up --build
    ```
