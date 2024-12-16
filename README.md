@@ -27,8 +27,8 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/yanakapylova/vocal-studio-auth-service
+   cd https://github.com/yanakapylova/vocal-studio-auth-service
    ```
 
 2. Set up RabbitMQ separately if it hasn’t been started as part of the central service setup. Run the following command to start RabbitMQ:
