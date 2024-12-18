@@ -16,6 +16,8 @@ export class AppService {
 
     Logger.log(user)
 
+    // TODO: Specify error messages for the exceptions
+
     if (!user || !user.password) {
       throw new UnauthorizedException();
     }

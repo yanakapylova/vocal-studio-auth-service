@@ -29,6 +29,8 @@
     "prisma:pull:generate": " npm run db:pull && prisma generate",
     "start:pull:generate:prod": "npm run prisma:pull:generate && npm run start:prod"
   },
+  // TODO: Fix dependency vulnerabilities
+  // (3 moderate severity vulnerabilities)
   "dependencies": {
     "@nestjs/cache-manager": "^2.3.0",
     "@nestjs/common": "^10.0.0",

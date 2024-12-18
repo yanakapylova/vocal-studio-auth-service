@@ -1,3 +1,5 @@
+// TODO: If constant depends on environment variable it's not a constant
+
 export const jwtConstants = {
   secret: process.env.JWT_SECRET,
 };

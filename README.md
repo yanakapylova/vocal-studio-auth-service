@@ -1,3 +1,7 @@
+<!-- TODO: Lint the MarkDown -->
+<!-- Recommend to install corresponding extension - https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint -->
+<!-- It's very strict and will teach you MD best practices -->
+
 # Authentication Service
 
 This project provides authentication functionality for the Vocal Studio application. It supports user login, registration, and token management. You can run the service either with its internal Docker Compose file or as part of a unified setup with other project services.
@@ -12,7 +16,12 @@ Make sure you have the following installed:
 
 ### Running the Service
 
+<!-- TODO: What if I'm the developer and want to run the service in development mode? -->
+<!-- Because I see that your package provides "start:dev" script -->
+<!-- Describe it here and running using Docker put in "### Running from container" section -->
+
 1. Clone the repository:
+   <!-- TODO: Fix `cd` mistake -->
    ```bash
    git clone https://github.com/yanakapylova/vocal-studio-auth-service
    cd https://github.com/yanakapylova/vocal-studio-auth-service
